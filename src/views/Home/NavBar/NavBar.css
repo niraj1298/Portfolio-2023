@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dadada;
+    color: black;
+    padding: 10px 20px;
+    height: 2.6rem;
+    
+  }
+  
+  .navbar-logo {
+    font-size: 30px;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-link a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* To align the links to the right */
+  .navbar-links {
+    margin-left: auto;
+  }
+  
+  .card__image {
+    margin-top: 0.5rem;
+    width: 4rem;
+    height: 3rem;
+    object-fit: contain;
+    border-radius: 5px;
+  }
