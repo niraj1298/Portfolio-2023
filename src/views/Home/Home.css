@@ -1,14 +1,82 @@
-section-1{
+/* ection-1 styles */
+.home {
     background-color: white;
-    height: 500vh;
+    height: 50vh;
     width: 100%;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-    margin: 0;
+    margin:  2.6rem 0 0;
     padding: 0;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-}
+
+  }
+  
+  /* Additional styles for the left section */
+  .section-1-left {
+    flex: 1;
+    width: 50%;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black; /* Change text color to black */
+  }
+  
+/* Additional styles for the text content */
+.section-1-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .section-1-text h {
+    margin: 0;
+    padding: 0;
+    font-size: 60px; /* Adjust font size */
+  }
+  .section-1-text h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 38px; /* Adjust font size */
+
+
+  }
+
+  .section-1-text h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px; /* Adjust font size */
+  }
+  
+  .section-1-text p {
+    padding: 20px;
+    font-size: 18px; /* Adjust font size */
+    margin: 0; /* Add vertical margin between paragraphs */
+  }
+
+  
+  /* Additional styles for the right section */
+  .section-1-right {
+    flex: 1;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rounded-image {
+    width: 25%; /* Set width and height of the rounded image container */
+    height: 15%;
+    border-radius: 5%; /* Create a circle effect */
+    overflow: hidden; /* Hide any overflow content */
+  }
+  
+  .rounded-image img {
+    width: 100%; /* Ensure the image fills the rounded container */
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Section-2 styles */
+  
