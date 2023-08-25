@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import Home from './views/Home/Home';
-import NavBar from './views/Home/NavBar/NavBar';
+import NavBar from './views/NavBar/NavBar';
 
 function App() {
   return (

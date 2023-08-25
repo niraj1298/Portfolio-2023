@@ -31,11 +31,14 @@
   }
   
   .section-1-text h {
+    color: #0D8ABC;
     margin: 0;
     padding: 0;
     font-size: 60px; /* Adjust font size */
   }
   .section-1-text h1 {
+    font-weight: 200;
+    color: #124E96;
     margin: 0;
     padding: 0;
     font-size: 38px; /* Adjust font size */
@@ -43,13 +46,9 @@
 
   }
 
-  .section-1-text h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 24px; /* Adjust font size */
-  }
-  
   .section-1-text p {
+    font-weight: 600;
+    color: #124E96;
     padding: 20px;
     font-size: 18px; /* Adjust font size */
     margin: 0; /* Add vertical margin between paragraphs */
