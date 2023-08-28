@@ -1,14 +1,20 @@
-/* ection-1 styles */
+/* Section-1 styles */
 .home {
     background-color: white;
     height: 50vh;
     width: 100%;
     margin:  2.6rem 0 0;
     padding: 0;
+  }
+
+  .section-wrapper{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20%;
   }
   
   /* Additional styles for the left section */
@@ -17,9 +23,9 @@
     width: 50%;
     padding: 0 50px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    color: black; /* Change text color to black */
+    color: black; 
   }
   
 /* Additional styles for the text content */
@@ -34,14 +40,14 @@
     color: #0D8ABC;
     margin: 0;
     padding: 0;
-    font-size: 60px; /* Adjust font size */
+    font-size: 60px; 
   }
   .section-1-text h1 {
     font-weight: 200;
     color: #124E96;
     margin: 0;
     padding: 0;
-    font-size: 38px; /* Adjust font size */
+    font-size: 38px; 
 
 
   }
@@ -50,8 +56,8 @@
     font-weight: 600;
     color: #124E96;
     padding: 20px;
-    font-size: 18px; /* Adjust font size */
-    margin: 0; /* Add vertical margin between paragraphs */
+    font-size: 18px; 
+    margin: 0; 
   }
 
   
@@ -60,22 +66,31 @@
     flex: 1;
     width: 50%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }
   
   .rounded-image {
-    width: 25%; /* Set width and height of the rounded image container */
+    width: 25%; 
     height: 15%;
-    border-radius: 5%; /* Create a circle effect */
-    overflow: hidden; /* Hide any overflow content */
+    border-radius: 5%; 
+    overflow: hidden; 
   }
   
   .rounded-image img {
-    width: 100%; /* Ensure the image fills the rounded container */
+    width: 100%; 
     height: 100%;
     object-fit: cover;
   }
   
   /* Section-2 styles */
-  
+
+  .section-2 {
+    background-color: #0D8ABC;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
